@@ -1,0 +1,283 @@
+/*
+ * APP2000 – Happy Trails
+ *
+ * Denne stilfilen er utviklet og tilpasset med hjelp
+ * fra ChatGPT (OpenAI).
+ * KI ble brukt til forslag til CSS-styling for turer,
+ * hytter, forside, navigasjon og bunntekst.
+ *
+ * Stilene er tilpasset prosjektets behov.
+ */
+
+h1 {
+  color: blue;
+}
+
+/* Turapp - styling av turkort */
+
+.tur-liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.tur-kort {
+  background-color: #f0f7f0;
+  border: 1px solid #c5d8c5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tur-kort h2 {
+  color: #245c3b;
+  margin-bottom: 10px;
+}
+
+/* Knapper for turdetaljer */
+
+.tur-knapp {
+  background-color: #245c3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.tur-knapp:hover {
+  background-color: #17452b;
+}
+
+.tur-detaljer {
+  background-color: #e8f3e8;
+  border: 1px solid #b5d2b5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 600px;
+}
+
+.tur-detaljer button {
+  background-color: #245c3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Turapp - styling av hytter */
+
+.hytte-liste {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hytte-kort {
+  background-color: #f0f7f0;
+  border: 1px solid #c5d8c5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hytte-kort h2 {
+  color: #245c3b;
+  margin-bottom: 10px;
+}
+
+.hytte-detaljer {
+  background-color: #e8f3e8;
+  border: 1px solid #b5d2b5;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 600px;
+}
+
+/* Turapp - hjemmeside */
+
+.hjem-side {
+  width: 100%;
+}
+
+.hero {
+  background: linear-gradient(135deg, #245c3b, #4a8b65);
+  color: white;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero .tur-knapp {
+  display: inline-block;
+  background-color: white;
+  color: #245c3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero .tur-knapp:hover {
+  background-color: #e8f3e8;
+}
+
+.hjem-innhold {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hjem-innhold h2 {
+  margin-bottom: 30px;
+  color: #245c3b;
+}
+
+.hjem-kort-liste {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hjem-kort {
+  background-color: #f0f7f0;
+  border: 1px solid #c5d8c5;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  text-align: left;
+}
+
+.hjem-kort h3 {
+  color: #245c3b;
+  margin-bottom: 15px;
+}
+
+.hjem-kort a {
+  color: #245c3b;
+  font-weight: bold;
+}
+
+.hjem-info {
+  background-color: #e8f3e8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hjem-info h2 {
+  color: #245c3b;
+  margin-bottom: 15px;
+}
+
+.prosjekt-info {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Happy Trails - Footer */
+
+.footer {
+  background-color: #245c3b;
+  color: white;
+  padding: 35px 20px;
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-innhold {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer h2 {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  margin-bottom: 12px;
+}
+
+.footer-prosjekt {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+/* Happy Trails - søkefelt */
+
+.tur-sok {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 20px;
+  max-width: 400px;
+}
+
+.tur-sok label {
+  color: #245c3b;
+  font-weight: bold;
+}
+
+.tur-sok input {
+  padding: 12px;
+  border: 1px solid #b5d2b5;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.tur-sok input:focus {
+  outline: 2px solid #245c3b;
+  outline-offset: 2px;
+}
+
+/* Happy Trails - Om oss */
+
+.om-side {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f0f7f0;
+  border: 1px solid #c5d8c5;
+  border-radius: 10px;
+}
+
+.om-side h1 {
+  color: #245c3b;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.om-side h2 {
+  color: #245c3b;
+  font-size: 23px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.om-side p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
