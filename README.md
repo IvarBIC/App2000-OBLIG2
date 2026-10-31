@@ -1,1 +1,1 @@
-Hei, alle filer i repoet na er "dummy" filer, eksempler. Feel free til og forandre og teste ut ulike github kommandoer. 
+Hei, dette er oppgavene fra arbeidsoppgave 2, leksjon 4-6
