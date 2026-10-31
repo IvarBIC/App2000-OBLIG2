@@ -1,1 +1,1 @@
-Hei, dette er en fil 
+Hei, alle filer i repoet na er "dummy" filer, eksempler. Feel free til og forandre og teste ut ulike github kommandoer. 
