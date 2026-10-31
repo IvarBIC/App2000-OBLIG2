@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #222;
+  margin: 0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#O {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#B {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+}
+
+.knapp {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.knapp:hover {
+  background: #005fcc;
+}
