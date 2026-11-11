@@ -7,7 +7,7 @@ Norway (USN); the sample content is not connected to a backend.
 ## Run locally
 
 ```powershell
-cd .\butikk-klient-0
+cd .\TurappReact
 npm.cmd install
 npm.cmd run dev
 ```
